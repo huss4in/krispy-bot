@@ -1,4 +1,4 @@
-# ![Krispy](https://i.ibb.co/x81JDN9/icon-24.png) Krispy Bot
+# ![Krispy](https://i.ibb.co/2tp76YQ/icon.png) Krispy Bot
 
 A Package to Automate Krispy Kreme Survey using Selenium.
 
@@ -27,5 +27,4 @@ with open("survey.json", "r", encoding="utf-8") as file:
 
 
 krispy.bot(*survey).finish_survey()
-
 ```
