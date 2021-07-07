@@ -16,10 +16,9 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/HUSS4IN7/krispy-bot/issues",
     },
     classifiers=[
-        "Programming Language:: Python:: 3.9+",
-        "License:: OSI Approved:: MIT License",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "Programming Language :: Python :: 3.9",
         "Operating System:: OS Independent"
-        "Framework:: selenium",
     ],
     install_requires=[
         'selenium==4.0.0.b4',
