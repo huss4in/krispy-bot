@@ -1,19 +1,19 @@
 import setuptools
 
-with open("README.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
+with open("README.md", "r", encoding="utf-8") as file:
+    long_description = file.read()
 
 setuptools.setup(
-    name="krispy",
+    name="krispy-bot",
     version="0.1.0",
     author="HUSS4IN7",
     author_email="huss4in7@outlook.com",
-    description="A package that completes Krispy Kreme Survey and retrieves the code.",
+    description="A Package to Automate Krispy Kreme Survey using Selenium.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/HUSS4IN7/krispy-bot",
+    url=(url := "https://github.com/HUSS4IN7/krispy-bot"),
     project_urls={
-        "Bug Tracker": "https://github.com/HUSS4IN7/krispy-bot/issues",
+        "Bug Tracker": f"{url}/issues",
     },
     classifiers=[
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
