@@ -13,7 +13,7 @@ import datetime
 class Bot(Functionalities):
     """## Krispy Kreme Bot."""
 
-    def __init__(self, url: str, receipt: str, answers: str, browser: str = 'firefox', host: str = 'localhost', port: int = '4444', assets: str = '/tmp/assets') -> None:
+    def __init__(self, url: str, receipt: str, answers: str, browser: str = 'firefox', host: str = '127.0.0.1', port: int = '4444', assets: str = '/tmp/assets') -> None:
         self.duration = time.time()
         self.duration_temp = self.duration
         self.browser = browser
